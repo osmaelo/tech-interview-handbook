@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Tech Interview Handbook',
   tagline:
-    'Carefully curated content to help you ace your next technical interview',
+    'Curated interview preparation materials for busy engineers',
   url: 'https://techinterviewhandbook.org',
   baseUrl: '/',
   favicon: 'img/favicon.png',
@@ -19,7 +19,7 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        {to: 'introduction', label: 'Getting Started', position: 'right'},
+        {href: '/introduction', label: 'Getting Started', position: 'right'},
         {to: 'blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/yangshun/tech-interview-handbook',
@@ -64,7 +64,6 @@ module.exports = {
       },
     ],
   ],
-  clientModules: [require.resolve('./src/components/SidebarAd')],
   scripts: [
     {
       src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4984084888641317",
